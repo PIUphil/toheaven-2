@@ -156,7 +156,7 @@ while True:
 6. 엔딩!
 ```
 
-        end = 4#randint(1,4)
+        end = randint(1,4)
 
         if end==1:
             for _ in range(3):
