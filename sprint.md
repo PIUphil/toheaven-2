@@ -47,7 +47,7 @@
         print(3-i,"초")
     time.sleep(1)
 
-    num = 5+int(pt.readVoltAverage()*10/3) # 보물의 갯수 
+    num = 5+int(pt.readVoltAverage()*10/3) # 보물의 개수 
     trs = set()
     usr_x = 3
     usr_y = 4
