@@ -38,7 +38,7 @@
 
     if hum<=20: rgb_hm=(255,255,255)    # 습도 색깔
     elif 20<hum<=50: rgb_hm=(149,202,255)
-    elif 20<hum<=80: rgb_hm=(0,0,255)
+    elif 50<hum<=80: rgb_hm=(0,0,255)
     elif 80<hum: rgb_hm=(2,10,49)
 
     #trs = {(x,y), (x,y), (x,y) (,) (,) (,)}
@@ -206,8 +206,8 @@ while True:
                     time.sleep(speed)
                     pixel.setColor(rain_list[ii], y-1, blc)
 
-                    if y==6 and (rain_list[ii]==usr_x or rain_list[ii]==usr_x+1):
-                        score -= 10
+                    #if y==6 and (rain_list[ii]==usr_x or rain_list[ii]==usr_x+1):
+                        #score -= 10
 
                 time.sleep(0.3)
 
